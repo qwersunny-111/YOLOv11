@@ -1,0 +1,16 @@
+# my custom dataset
+path: /home/B_UserData/sunleyao/WeedDetect/datasets3
+train: # train images (relative to 'path') 
+  - train
+val: # val images (relative to 'path')
+  - val
+
+# number of classes
+nc: 2
+
+# # class names
+# names: ["0", "1"]
+
+names:
+  0: weed
+  1: mq
